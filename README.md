@@ -7,69 +7,69 @@ This also uses **H2 database** and **JPA** for as data source
 
 
 ## 🚀 About Me
-Hi, My name is Nikhil Sharma,
+*Hi, My name is Nikhil Sharma*,
 
 I'm a full stack developer trainee at Geekster. I have knowledge of Java, OOPs, Maven, APIs, DSA, SpringBoot.
 
 
-## Data Flow
+# Data Flow
 
-### Controller
--   This section contains a class named JobController which uses functions as mentioned below :
+## Controller
+*   *This section contains a class named JobController which uses functions as mentioned below :*
 
-       #### 1. @GetMapping("getByCrudRepo")
-       #### 2. @DeleteMapping("deleteByCrudRepo/{Id}")
-       #### 3. @PostMapping("addByCrudRepo")
-       #### 4. @PutMapping("updateDescriptionByCrudRepo/{Id}/{description}")
-       #### 5. @GetMapping("getByIdFinder/{Id}")
-       #### 6. @GetMapping("getByTypeFinder/{Type}")
-       #### 7. @GetMapping("getBySalaryFinder/{Salary}")
-       #### 8. @GetMapping("getByLocationFinder/{location}")
-       #### 9. @PutMapping("updateBySalaryQuery/{Id}/{salary}")
-       #### 10. @PutMapping("updateByLocationQuery/{Id}/{location}")
-       #### 11. @DeleteMapping("deleteByCompanyNameQuery/{companyName}")
-       #### 12. @DeleteMapping("deleteByTitleQuery/{Title}")
+       * @GetMapping("getByCrudRepo")
+       * @DeleteMapping("deleteByCrudRepo/{Id}")
+       * @PostMapping("addByCrudRepo")
+       * @PutMapping("updateDescriptionByCrudRepo/{Id}/{description}")
+       * @GetMapping("getByIdFinder/{Id}")
+       * @GetMapping("getByTypeFinder/{Type}")
+       * @GetMapping("getBySalaryFinder/{Salary}")
+       * @GetMapping("getByLocationFinder/{location}")
+       * @PutMapping("updateBySalaryQuery/{Id}/{salary}")
+       * @PutMapping("updateByLocationQuery/{Id}/{location}")
+       * @DeleteMapping("deleteByCompanyNameQuery/{companyName}")
+       * @DeleteMapping("deleteByTitleQuery/{Title}")
 
-### Services
--   This section contains a class JobService with functions that helps API to perform their specific tasks : 
+## Services
+*   *This section contains a class JobService with functions that helps API to perform their specific tasks :*
 
-    #### 1. Iterable<Job> getByCrudRepo() 
-    #### 2. String deleteByCrudRepo(Long id)
-    #### 3. String addByCrudRepo(List<Job> jobs)
-    #### 4. String updateDescriptionByCrudRepo(Long Id, String description)
-    #### 5. Job getByIdFinder(Long id)
-    #### 6. List<Job> getByTypeFinder(JobType type)
-    #### 7. List<Job> getBySalaryFinder(Double salary)
-    #### 8. List<Job> getByLocationFinder(String location)
-    #### 9. String updateBySalaryQuery(long id, Double salary)
-    #### 10. String updateByLocationQuery(long id, String location)
-    #### 11. String deleteByCompanyNameQuery(String companyName)
-    #### 12. String deleteByTitleQuery(String title)
+    * Iterable<Job> getByCrudRepo() 
+    * String deleteByCrudRepo(Long id)
+    * String addByCrudRepo(List<Job> jobs)
+    * String updateDescriptionByCrudRepo(Long Id, String description)
+    * Job getByIdFinder(Long id)
+    * List<Job> getByTypeFinder(JobType type)
+    * List<Job> getBySalaryFinder(Double salary)
+    * List<Job> getByLocationFinder(String location)
+    * String updateBySalaryQuery(long id, Double salary)
+    * String updateByLocationQuery(long id, String location)
+    * String deleteByCompanyNameQuery(String companyName)
+    * String deleteByTitleQuery(String title)
     
+## Model
+- *This section contains a model of type Job, which uses various data members to define its properties. And when the table of jobs will be created these will be columns.*
 
-###  Repository
--   This section contains a **Interface** named iJobRepo which extends the **CRUDRepository** of JPA which defines various funtionality of interface and by extension via object of this interface we can access CRUDRepository methods to provide funtionality to our project.
+##  Repository
+-   *This section contains a **Interface** named iJobRepo which extends the **CRUDRepository** of JPA which defines various funtionality of interface and by extension via object of this interface we can access CRUDRepository methods to provide funtionality to our project.*
 
-    #### 1. private List<User>
-
-### Database Design
-- In this section we used a Job class which is used as a table to store data.
-- It also uses H2 database and JPA to create datastructure.
+## Database Design
+- *In this section we used a Job class which is used as a table to store data.*
+- *It also uses H2 database and JPA to create datastructure.*
 
 
 ## Data Structure Used
-
-- We used **H2 database** along with **JPA** as the data source in this project.
-- H2 database is a temporary **In-Memory** database. Which stores data in structured format(In form of tables and databases).
-- The data created in this is temporary and is lost as soon as the program is terminated.
+- *We used **H2 database** along with **JPA** as the data source in this project*.
+- *H2 database is a temporary **In-Memory** database. Which stores data in structured format(In form of tables and databases)*.
+- *The data created in this is temporary and is lost as soon as the program is terminated*.
+ 
 ## Summary
 
-This project performs the task of managing user data with various types of API's like **Get, Post, Put, Delete**.
+*This project performs the task of managing Job data with various types of API's like **Get, Post, Put, Delete**.*
 
-This project shows the implementation of various types of **validations** that are used in **SpringBoot**. Such as **Size()**, **NotNull()**, **Pattern()**, etc.
+*This project shows the implementation of various types of **validations** that are used in **SpringBoot**. Such as **Size()**, **NotNull()**, **Pattern()**, etc.*
 
-We used **MVC Architecture** to create this project. 
-And this is created in **SpringBoot** using **Maven** and **Java**.
+*We used **MVC Architecture** to create this project. 
+And this is created in **SpringBoot** using **Maven** and **Java**.*
 
 
 ## 🔗 Links
