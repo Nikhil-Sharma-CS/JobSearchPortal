@@ -69,7 +69,7 @@ I'm a full stack developer trainee at Geekster. I have knowledge of Java, OOPs, 
 *This project shows the implementation of various types of **validations** that are used in **SpringBoot**. Such as **Size()**, **NotNull()**, **Pattern()**, etc.*
 
 *We used **MVC Architecture** to create this project. 
-And this is created in **SpringBoot** using **Maven** and **Java**.*
+And this is created in **SpringBoot** using **Maven** & **Java**.*
 
 
 ## 🔗 Links
